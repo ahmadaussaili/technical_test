@@ -1,4 +1,4 @@
-# Sample BookingGo Techincal Test Submission
+# BookingGo Techincal Test Submission
 
 ## Setup
 ```
