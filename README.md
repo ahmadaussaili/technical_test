@@ -20,6 +20,17 @@ The program can be run using the terminal or IntelliJ IDEA 2018.2
 
 In order to run the commands from the terminal, you must be in the folder of the project (rideways) where the ’target’
 folder will be located.
+
+If you want to import the project into IntelliJ IDEA, these are the steps as explained on the official website:
+
+1. From the main menu, choose VCS | Checkout from Version Control | Git, or, if no project is currently opened,
+choose Checkout from Version Control | Git on the Welcome screen. 
+2. In the Clone Repository dialog, specify the URL of the remote repository you want to clone (you can click Test 
+to make sure that connection to the remote can be established). 
+3. In the Directory field, specify the path where the folder for your local Git repository will be created into which
+the remote repository will be cloned. 
+4. Click Clone. If you want to create a IntelliJ IDEA project based on the sources you have cloned, click Yes in the
+confirmation dialog. Git root mapping will be automatically set to the project root directory.
 ```
 
 ## Part 1
