@@ -1,0 +1,17 @@
+[
+  {
+    "supplier": "eric",
+    "price": 559187,
+    "car_type": "MINIBUS"
+  },
+  {
+    "supplier": "dave",
+    "price": 524444,
+    "car_type": "PEOPLE_CARRIER"
+  },
+  {
+    "supplier": "jeff",
+    "price": 342658,
+    "car_type": "EXECUTIVE"
+  }
+]
