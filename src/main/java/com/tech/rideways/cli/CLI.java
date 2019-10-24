@@ -103,6 +103,6 @@ public class CLI implements CommandLineRunner {
 
     private boolean parametersAreValid(String pickup, String dropoff) {
         // Validate parameters
-        return pickup.matches(VALIDATION_REGEX) || dropoff.matches(VALIDATION_REGEX);
+        return pickup.matches(VALIDATION_REGEX) && dropoff.matches(VALIDATION_REGEX);
     }
 }
