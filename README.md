@@ -47,6 +47,9 @@ java -jar target/rideways-0.0.1-SNAPSHOT.jar -s dave 51.470020,-0.454295 53.4700
 NOTE: the program ignores searches in case a request lasts more than 2 seconds, as it was instructed in the
 test requirements. The program will inform you whether a timeout occurred, thus, please try again until a
 successful result is given.
+
+NOTE: the program logs any error (timeout of 2 seconds, server is unavailable, API is not responding, bad request)
+in the terminal before the result is displayed. The errors are handled and appropriate messages are delivered.
 ```
 
 ### Console application to filter by number of passengers
@@ -62,10 +65,10 @@ For all the suppliers (it gives the options filtered by the cheapest supplier):
 java -jar target/rideways-0.0.1-SNAPSHOT.jar {pickup} {dropoff} {number of passengers (optional)}
 
 An example using this command:
-java -jar target/rideways-0.0.1-SNAPSHOT.jar  51.470020,-0.454295 53.470020,-0.454295 6
+java -jar target/rideways-0.0.1-SNAPSHOT.jar 51.470020,-0.454295 53.470020,-0.454295 6
 
 Or (in case you want to try without the number of passengers)
-java -jar target/rideways-0.0.1-SNAPSHOT.jar  51.470020,-0.454295 53.470020,-0.454295
+java -jar target/rideways-0.0.1-SNAPSHOT.jar 51.470020,-0.454295 53.470020,-0.454295
 ```
 
 ## Part 2
